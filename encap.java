@@ -23,7 +23,7 @@ class Human {
 }
 
 public class encap {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Human obj = new Human();
         obj.setAge(30);
         obj.setName("Navin");

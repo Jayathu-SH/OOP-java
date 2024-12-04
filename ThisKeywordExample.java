@@ -24,7 +24,7 @@ class Human {
 }
 
 public class ThisKeywordExample {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Human obj = new Human();
         obj.setAge(30); // Set age to 30
         obj.setName("Navin"); // Set name to "Navin"

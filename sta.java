@@ -18,7 +18,7 @@ class Mobile
 }
 
 public class sta {
-    public static void main(String[] args)
+    public static void main (String[] args)
     {
         
         Mobile obj1 = new Mobile();

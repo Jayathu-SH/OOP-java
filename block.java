@@ -18,7 +18,7 @@ class Mobile {
 
     // Method to show mobile details
     public void show() {
-        System.out.println(brand + ": " + price + " : " + name);
+        System.out.println (brand + ": " + price + " : " + name);
     }
 }
 
