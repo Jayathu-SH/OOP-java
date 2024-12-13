@@ -27,7 +27,7 @@ class Human {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName (String name) {
         this.name = name; 
     }
 }
@@ -37,7 +37,7 @@ public class cons {
     {
 
 
-        Human obj = new Human();
+        Human obj = new Human();//heap
         Human obj1 = new Human(18, "Navin");//passing values
         System.out.println(obj.getName() + " : " + obj.getAge());
         System.out.println(obj1.getName() + " : " + obj1.getAge());
