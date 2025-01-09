@@ -7,13 +7,13 @@ class Mobile {
     public Mobile() {
         brand = "";
         price = 200;
-        System.out.println("In constructor");
+        System.out.println ("In constructor");
     }
 
     // Static block
     static {
         name = "Phone";
-        System.out.println("In static block");
+        System.out.println ("In static block");
     }
 
     // Method to show mobile details
