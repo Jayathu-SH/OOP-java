@@ -26,14 +26,14 @@ class UpdateWagonR extends WagonR    //concrete claz
 
     
     public void fly() {
-        System.out.println("Flying...");;
+        System.out.println("Flying...");
     }
 
 }
 
 public class Abstractkey {
     public static void main(String[] args) {
-        Car obj = new UpdateWagonR();
+        Car obj = new UpdateWagonR();//can make object from concrete claz
         obj.drive();
         obj.playMusic();
         obj.fly();
